@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 700px;
+  max-width: 660px;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -46,6 +46,7 @@ body {
   background-repeat: no-repeat;
   background-size: 90px ;
   transform: skewX(14deg) translateX(-16px);
+  background-position: center;
 }
 
 .container .heroes .each_hero:nth-child(1) .image {
