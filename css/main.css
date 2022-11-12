@@ -1,0 +1,35 @@
+.container {
+
+}
+
+.container .heroes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: cornflowerblue;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.container .heroes .each_hero {
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  background-color: #555555;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transform: skewX(-14deg);
+  transition:
+      transform .1s,
+      background-color .6s;
+}
+
+.container .heroes .each_hero:hover {
+
+}
+
+.container .heroes .each_hero .image {
+
+}
