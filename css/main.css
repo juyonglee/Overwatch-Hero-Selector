@@ -175,3 +175,13 @@ body {
 .container .heroes .each_hero:nth-child(32) .image {
   background-image: url("../images/hero32.png");
 }
+
+.container .logo {
+  max-width: 300px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.container .logo img {
+  width: 100%;
+}
